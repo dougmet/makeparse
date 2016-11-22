@@ -1,0 +1,1280 @@
+# GNU Make version 3.79.1, by Richard Stallman and Roland McGrath.
+# Built for i686-pc-cygwin
+# Copyright (C) 1988, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 2000
+# 	Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# Report bugs to <bug-make@gnu.org>.
+
+python zipf_test.py  abyss.dat  isles.dat  last.dat  sierra.dat > results.txt
+
+# Make data base, printed on Tue Nov 22 17:31:12 2016
+
+# Variables
+
+# environment
+ProgramData = C:\ProgramData
+# default
+F77 = $(FC)
+# default
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\BACKUP-SERVER
+# automatic
+@F = $(notdir $@)
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+ProgramW6432 = C:\Program Files
+# environment
+HOME = /cygdrive/c/Users/dashton
+# environment
+USERNAME = dashton
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# default
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .r .y .l .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# default
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# default
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+OS = Windows_NT
+# default
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# environment
+HOMEPATH = \Users\dashton
+# default
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# default
+COFLAGS = 
+# default
+TEXI2DVI = texi2dvi
+# environment
+!C: = C:\Users\dashton\Documents\Python\swcarpentry-make-novice
+# default
+CURDIR := /cygdrive/c/Users/dashton/Documents/Python/swcarpentry-make-novice
+# automatic
++F = $(notdir $+)
+# default
+COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
+# automatic
+%F = $(notdir $%)
+# environment
+TMP = /cygdrive/c/Users/dashton/AppData/Local/Temp
+# default
+LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+!:: = ::\
+# default
+CO = co
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# default
+PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# default
+M2C = m2c
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERDOMAIN_ROAMINGPROFILE = MANGO
+# default
+FC = f77
+# environment
+ChocolateyInstall = C:\ProgramData\chocolatey
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+CC = gcc
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# default
+LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# default
+CXX = g++
+# default
+AR = ar
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from `Makefile', line 3)
+TXT_FILES = $(wildcard books/*.txt)
+# default
+CWEAVE = cweave
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# default
+COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# default
+COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
+# default
+SHELL := sh.exe
+# default
+YACC = bison -y
+# default
+COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
+# environment
+ProgramFiles(x86) = C:\Program Files (x86)
+# default
+LINK.C = $(LINK.cc)
+# makefile
+MAKEFLAGS =  --unix -p
+# environment
+LOCALAPPDATA = C:\Users\dashton\AppData\Local
+# default
+LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+OUTPUT_OPTION = -o $@
+# default
+MAKE_VERSION := 3.79.1
+# default
+PREPROCESS.S = $(CC) -E $(CPPFLAGS)
+# makefile (from `config.mk', line 6)
+ZIPF_SRC = zipf_test.py
+# makefile (from `config.mk', line 2)
+COUNT_SRC = wordcount.py
+# environment
+MAKELEVEL := 0
+# environment
+HOMEDRIVE = C:
+# default
+YACC.y = $(YACC) $(YFLAGS)
+# default
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# default
+TANGLE = tangle
+# default
+CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
+# default
+LD = ld
+# environment
+USERDOMAIN = MANGO
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = - --unix -p
+# default
+GET = get
+# environment
+!ExitCode = 00000000
+# default
+COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
+# default
+PC = pc
+# default
+AS = as
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# default
+TEX = tex
+# environment
+USERDNSDOMAIN = MANGO.LOCAL
+# environment
+TERM = cygwin
+# environment
+SESSIONNAME = Console
+# default
+COMPILE.cpp = $(COMPILE.cc)
+# environment
+COMPUTERNAME = DASHTON-XPS
+# default
+COMPILE.C = $(COMPILE.cc)
+# default
+LINT = lint
+# default
+F77FLAGS = $(FFLAGS)
+# default
+COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# default
+RM = rm -f
+# environment
+TEMP = /cygdrive/c/Users/dashton/AppData/Local/Temp
+# default
+.LIBPATTERNS = lib%.so lib%.a
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+USERPROFILE = C:\Users\dashton
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+APPDATA = C:\Users\dashton\AppData\Roaming
+# default
+WEAVE = weave
+# automatic
+?F = $(notdir $?)
+# environment
+PROCESSOR_REVISION = 4e03
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+CPP = $(CC) -E
+# automatic
+<F = $(notdir $<)
+# default
+LEX = flex
+# default
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+LEX.l = $(LEX) $(LFLAGS) -t
+# environment
+ChocolateyLastPathUpdate = Tue Nov 22 14:42:58 2016
+# default
+COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
+# default
+ARFLAGS = rv
+# makefile (from `Makefile', line 4)
+DAT_FILES = $(patsubst books/%.txt, %.dat, $(TXT_FILES))
+# environment
+SYSTEMDRIVE = C:
+# automatic
+*F = $(notdir $*)
+# automatic
+^F = $(notdir $^)
+# environment
+WINDIR = C:\Windows
+# default
+LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
+# default
+LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+LINK.cpp = $(LINK.cc)
+# default
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# environment
+HADOOP_HOME = C:\Users\dashton\AppData\Local\rstudio\spark\Cache\spark-1.6.2-bin-hadoop2.6\tmp\hadoop
+# default
+MAKEFILES := 
+# default
+CTANGLE = ctangle
+# environment
+SBT_HOME = C:\Program Files (x86)\sbt\
+# default
+MAKE_COMMAND := make
+# environment
+PATH = /cygdrive/c/Program Files/Docker/Docker/Resources/bin:/usr/bin:/mingw_32/bin:/cygdrive/c/Program Files/ImageMagick-7.0.2-Q16:/usr/bin:/gcc-4.6.3/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/usr/bin:/gcc-4.6.3/bin:/cygdrive/c/Program Files/Dell/DW WLAN Card:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/WIDCOMM/Bluetooth Software:/cygdrive/c/Program Files/WIDCOMM/Bluetooth Software/syswow64:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/Git/mingw64/bin:/cygdrive/c/Program Files/Git/usr/bin:/cygdrive/c/Program Files/nodejs:/cygdrive/c/Program Files (x86)/MiKTeX 2.9/miktex/bin:/cygdrive/c/HashiCorp/Vagrant/bin:/cygdrive/c/Program Files (x86)/scala/bin:/cygdrive/c/Program Files (x86)/sbt/bin:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Users/dashton/AppData/Local/Continuum/Anaconda3:/cygdrive/c/Users/dashton/AppData/Local/Continuum/Anaconda3/Scripts:/cygdrive/c/Users/dashton/AppData/Local/Continuum/Anaconda3/Library/bin:/cygdrive/c/Users/dashton/AppData/Roaming/npm:/cygdrive/c/Users/dashton/AppData/Local/atom/bin:/cygdrive/c/Program Files (x86)/Graphviz2.38/bin
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_91
+# default
+LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+MAKEINFO = makeinfo
+# makefile (from `config.mk', line 3)
+COUNT_EXE = python $(COUNT_SRC)
+# makefile (from `config.mk', line 7)
+ZIPF_EXE = python $(ZIPF_SRC)
+# environment
+CommonProgramW6432 = C:\Program Files\Common Files
+# 137 variables in 523 hash buckets.
+# average of 0.3 variables per bucket, max 3 in one bucket.
+
+# Directories
+
+# SCCS: could not be stat'd.
+# books/SCCS: could not be stat'd.
+# books/RCS: could not be stat'd.
+# . (device 32389, inode 873516): 20 files, 68 impossibilities.
+# RCS: could not be stat'd.
+# books (device 32389, inode 545842): 7 files, 68 impossibilities.
+
+# 27 files, 136 impossibilities in 6 directories.
+
+# Implicit Rules
+
+%.dat: books/%.txt wordcount.py
+#  commands to execute (from `Makefile', line 13):
+	$(COUNT_EXE) $< $*.dat
+	
+
+%.out:
+
+%.a:
+
+%.ln:
+
+%.o:
+
+%: %.o
+#  commands to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.c:
+
+%: %.c
+#  commands to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.ln: %.c
+#  commands to execute (built-in):
+	$(LINT.c) -C$* $<
+
+%.o: %.c
+#  commands to execute (built-in):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+%.cc:
+
+%: %.cc
+#  commands to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cc
+#  commands to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+%.C:
+
+%: %.C
+#  commands to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.C
+#  commands to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+%.cpp:
+
+%: %.cpp
+#  commands to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cpp
+#  commands to execute (built-in):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+%.p:
+
+%: %.p
+#  commands to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.p
+#  commands to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+%.f:
+
+%: %.f
+#  commands to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.f
+#  commands to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+%.F:
+
+%: %.F
+#  commands to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.F
+#  commands to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+%.f: %.F
+#  commands to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+%.r:
+
+%: %.r
+#  commands to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.r
+#  commands to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+%.f: %.r
+#  commands to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+%.y:
+
+%.ln: %.y
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	$(LINT.c) -C$* y.tab.c 
+	$(RM) y.tab.c
+
+%.c: %.y
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	mv -f y.tab.c $@
+
+%.l:
+
+%.ln: %.l
+#  commands to execute (built-in):
+	@$(RM) $*.c
+	$(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	$(RM) $*.c
+
+%.c: %.l
+#  commands to execute (built-in):
+	@$(RM) $@ 
+	$(LEX.l) $< > $@
+
+%.r: %.l
+#  commands to execute (built-in):
+	$(LEX.l) $< > $@ 
+	mv -f lex.yy.r $@
+
+%.s:
+
+%: %.s
+#  commands to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.s
+#  commands to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+%.S:
+
+%: %.S
+#  commands to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.S
+#  commands to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+%.s: %.S
+#  commands to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+%.mod:
+
+%: %.mod
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+%.o: %.mod
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+%.sym:
+
+%.def:
+
+%.sym: %.def
+#  commands to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+%.h:
+
+%.info:
+
+%.dvi:
+
+%.tex:
+
+%.dvi: %.tex
+#  commands to execute (built-in):
+	$(TEX) $<
+
+%.texinfo:
+
+%.info: %.texinfo
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texinfo
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.texi:
+
+%.info: %.texi
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texi
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.txinfo:
+
+%.info: %.txinfo
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.txinfo
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.w:
+
+%.c: %.w
+#  commands to execute (built-in):
+	$(CTANGLE) $< - $@
+
+%.tex: %.w
+#  commands to execute (built-in):
+	$(CWEAVE) $< - $@
+
+%.ch:
+
+%.web:
+
+%.p: %.web
+#  commands to execute (built-in):
+	$(TANGLE) $<
+
+%.tex: %.web
+#  commands to execute (built-in):
+	$(WEAVE) $<
+
+%.sh:
+
+%: %.sh
+#  commands to execute (built-in):
+	cat $< >$@ 
+	chmod a+x $@
+
+%.elc:
+
+%.el:
+
+(%): %
+#  commands to execute (built-in):
+	$(AR) $(ARFLAGS) $@ $<
+
+%.out: %
+#  commands to execute (built-in):
+	@rm -f $@ 
+	cp $< $@
+
+%.c: %.w %.ch
+#  commands to execute (built-in):
+	$(CTANGLE) $^ $@
+
+%.tex: %.w %.ch
+#  commands to execute (built-in):
+	$(CWEAVE) $^ $@
+
+%:: %,v
+#  commands to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: RCS/%,v
+#  commands to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: RCS/%
+#  commands to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: s.%
+#  commands to execute (built-in):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+%:: SCCS/s.%
+#  commands to execute (built-in):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+# 87 implicit rules, 5 (5.7%) terminal.
+
+# Pattern-specific variable values
+
+# No pattern-specific variable values.
+
+# Files
+
+results.txt: abyss.dat isles.dat last.dat sierra.dat zipf_test.py
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Last modified 2016-11-22 17:31:12
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# ^ := abyss.dat isles.dat last.dat sierra.dat zipf_test.py
+# automatic
+# @ := results.txt
+# automatic
+# + := abyss.dat isles.dat last.dat sierra.dat zipf_test.py
+# automatic
+# ? := abyss.dat isles.dat last.dat sierra.dat zipf_test.py
+# automatic
+# * := 
+# automatic
+# % := 
+# automatic
+# < := abyss.dat
+# 7 variables in 23 hash buckets.
+# average of 0.3 variables per bucket, max 2 in one bucket.
+#  commands to execute (from `Makefile', line 8):
+	$(ZIPF_EXE) $(DAT_FILES) > $@
+	
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.texinfo.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Not a target:
+.mod.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+# Not a target:
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+# Not a target:
+zipf_test.py:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 12:12:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+last.dat: books/last.txt wordcount.py
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `last'
+#  Last modified 2016-11-22 17:31:00
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 13):
+	$(COUNT_EXE) $< $*.dat
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 17:30:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+isles.dat: books/isles.txt wordcount.py
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `isles'
+#  Last modified 2016-11-22 17:31:00
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 13):
+	$(COUNT_EXE) $< $*.dat
+	
+
+# Not a target:
+.txinfo.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.y.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	mv -f y.tab.c $@
+
+# Not a target:
+.l:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.web.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(WEAVE) $<
+
+# Not a target:
+wordcount.py:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 13:17:31
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+# Not a target:
+.sym:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.texi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.F.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.web.p:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TANGLE) $<
+
+# Not a target:
+.def:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+books/isles.txt:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 11:43:26
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.F:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+books/last.txt:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 17:30:05
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 18):
+	rm -f *.dat
+	rm -f results.txt
+	
+
+# Not a target:
+.cc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.S.s:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+# Not a target:
+.ch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.def.sym:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+# Not a target:
+.F.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.elc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.y.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(YACC.y) $< 
+	$(LINT.c) -C$* y.tab.c 
+	$(RM) y.tab.c
+
+# Not a target:
+.texi.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Not a target:
+.el:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.texinfo.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Not a target:
+books/sierra.txt:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 11:18:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+config.mk:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 15:15:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .r .y .l .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.txinfo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: Makefile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	@sed -n 's/^##//p' $<
+	
+
+# Not a target:
+.p.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.r.f:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.w.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(CWEAVE) $< - $@
+
+# Not a target:
+.txinfo.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+variables:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	@echo TXT_FILES: $(TXT_FILES)
+	
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.c.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINT.c) -C$* $<
+
+# Not a target:
+.w:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.l.r:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LEX.l) $< > $@ 
+	mv -f lex.yy.r $@
+
+# Not a target:
+abyss.dat: books/abyss.txt wordcount.py
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `abyss'
+#  Last modified 2016-11-22 17:30:59
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 13):
+	$(COUNT_EXE) $< $*.dat
+	
+
+# Not a target:
+.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.r.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.C.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.p:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.l.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	@$(RM) $@ 
+	$(LEX.l) $< > $@
+
+# Not a target:
+.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	cat $< >$@ 
+	chmod a+x $@
+
+# Not a target:
+.web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.f.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.texi.info:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Not a target:
+.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean variables dats help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.l.ln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	@$(RM) $*.c
+	$(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	$(RM) $*.c
+
+# Not a target:
+.y:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dats: abyss.dat isles.dat last.dat sierra.dat
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.S.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+# Not a target:
+.tex.dvi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(TEX) $<
+
+# Not a target:
+.r:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.mod:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+# Not a target:
+sierra.dat: books/sierra.txt wordcount.py
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `sierra'
+#  Last modified 2016-11-22 17:31:00
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 13):
+	$(COUNT_EXE) $< $*.dat
+	
+
+# Not a target:
+.C:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+books/abyss.txt:
+#  Implicit rule search has been done.
+#  Last modified 2016-11-22 11:18:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.texinfo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.w.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(CTANGLE) $< - $@
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 84 files in 1007 hash buckets.
+# average 0.083 files per bucket, max 2 files in one bucket.
+
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# Finished Make data base on Tue Nov 22 17:31:12 2016
+
