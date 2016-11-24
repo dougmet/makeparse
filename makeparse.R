@@ -6,26 +6,5 @@ df <- readLines("tests/testthat/mkdb.txt") %>%
   labelLines
 
 
-sectionHeader <- function(section) {
-  gsub("^# ", "", section[1,"Line"])
-}
-
-sectionDropHeader <- function(dbsec) {
-  toDrop <- 1
-  if(nrow(dbsec)>1 & dbsec[1,"BfBlank"]) {
-    toDrop <- 1:2
-  }
-  dbsec[-toDrop, , drop = FALSE]
-}
-
-splitSections <- function(dbdf) {
-
-  sections <- split(dbdf, dbdf$Section)
-
-  names(sections) <- vapply(sections, sectionHeader, "a")
-
-  sections <- lapply(sections, sectionDropHeader)
-
-}
 
 sections <- splitSections(df)
