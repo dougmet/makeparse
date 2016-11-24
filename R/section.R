@@ -1,15 +1,17 @@
-library(dplyr)
-library(devtools)
-load_all()
-
-df <- readLines("tests/testthat/mkdb.txt") %>%
-  labelLines
-
-
-sectionHeader <- function(section) {
-  gsub("^# ", "", section[1,"Line"])
+#' Get the name of a section
+#'
+#' @param dbsec data frame for that section
+#'
+#' @return chr(1) Name of section
+sectionHeader <- function(dbsec) {
+  gsub("^# ", "", dbsec[1,"Line"])
 }
 
+#' Strip the section name and following blank line
+#'
+#' @param dbsec data frame for that section
+#'
+#' @return data.frame with section heading removed
 sectionDropHeader <- function(dbsec) {
   toDrop <- 1
   if(nrow(dbsec)>1 & dbsec[1,"BfBlank"]) {
@@ -27,5 +29,3 @@ splitSections <- function(dbdf) {
   sections <- lapply(sections, sectionDropHeader)
 
 }
-
-sections <- splitSections(df)
