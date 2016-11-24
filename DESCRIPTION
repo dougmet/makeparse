@@ -1,10 +1,13 @@
 Package: makeparse
 Title: Parse the GNU make database
-Version: 0.0.0.9000
-Authors@R: person("Doug", "Ashton", email = "dashton@mango-solutions.com", role = c("aut", "cre"))
-Description: From a make file, get the make view of the targets and rules and save to JSON.
+Version: 0.0.0.9006
+Authors@R: person("Doug", "Ashton", email =
+        "dashton@mango-solutions.com", role = c("aut", "cre"))
+Description: From a make file, get the make view of the targets and
+        rules and save to JSON.
 Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat
+RoxygenNote: 5.0.1

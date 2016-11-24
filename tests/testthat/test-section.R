@@ -1,5 +1,9 @@
 context("Split into sections")
 
+mkdbtxt <- readLines("mkdb.txt")
+
+dbdf <- labelLines(mkdbtxt)
+
 dbsec <- splitSections(dbdf)
 
 names(dbsec)
