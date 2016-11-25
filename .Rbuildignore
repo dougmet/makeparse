@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 Makefile
 make.R
+^\.travis\.yml$
