@@ -22,7 +22,7 @@ sectionDropHeader <- function(dbsec) {
 
 #' Split the labelled data.frame into section
 #'
-#' @param dbdf data.frame from \code{\link{labelLines}}
+#' @param dbdf data.frame from \code{labelLines}
 #'
 #' @return a named list with each section as a data.frame
 splitSections <- function(dbdf) {

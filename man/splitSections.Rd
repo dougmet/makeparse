@@ -7,7 +7,7 @@
 splitSections(dbdf)
 }
 \arguments{
-\item{dbdf}{data.frame from \code{\link{labelLines}}}
+\item{dbdf}{data.frame from \code{labelLines}}
 }
 \value{
 a named list with each section as a data.frame
