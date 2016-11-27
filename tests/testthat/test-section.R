@@ -6,8 +6,6 @@ dbdf <- labelLines(mkdbtxt)
 
 dbsec <- splitSections(dbdf)
 
-names(dbsec)
-
 test_that("Section Names", {
 
   expect_is(dbsec, "list")
