@@ -1,0 +1,50 @@
+# Variables
+
+# environment
+ProgramData = C:\ProgramData
+# default
+F77 = $(FC)
+# default
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\BACKUP-SERVER
+# automatic
+@F = $(notdir $@)
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+ProgramW6432 = C:\Program Files
+# environment
+HOME = /cygdrive/c/Users/dashton
+# environment
+USERNAME = dashton
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# default
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .r .y .l .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# default
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# default
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+OS = Windows_NT
+# default
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# environment
+HOMEPATH = \Users\dashton
+# default
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# default
+COFLAGS =
+some other thing
+# 137 variables in 523 hash buckets.
+# average of 0.3 variables per bucket, max 3 in one bucket.
+
