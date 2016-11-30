@@ -1,10 +1,10 @@
 context("Split into sections")
 
-mkdbtxt <- readLines("mkdb.txt")
+mkdbtxt <- readLines("mkdb.txt") # read test file
 
-dbdf <- labelLines(mkdbtxt)
+dbdf <- labelLines(mkdbtxt) # Label each line in data.frame
 
-dbsec <- splitSections(dbdf)
+dbsec <- splitSections(dbdf) # split by section
 
 test_that("Section Names", {
 
