@@ -1,4 +1,9 @@
 
+#' Annotate the lines in the make db
+#'
+#' @param x char(n) Character vector, probably from readLines
+#'
+#' @return a data frame with the original lines in \code{Lines} and various flags in other columns
 labelLines <- function(x) {
   df <- data.frame(ID = seq_along(x),
                    Line = x,
