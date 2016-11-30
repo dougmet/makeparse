@@ -2,5 +2,4 @@
 ^\.Rproj\.user$
 Makefile
 make.R
-makeparse.R
 ^\.travis\.yml$
