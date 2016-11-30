@@ -11,7 +11,9 @@ parseDirectories <- function(dirdf) {
 
   dirList <- split(dirdf, dirdf$dirGroup)
 
-  lapply(dirList, getDirSubList)
+  dirOut <- lapply(dirList, getDirSubList)
+  names(dirOut) <- NULL
+  dirOut
 }
 
 #' Split a directory line into bits
