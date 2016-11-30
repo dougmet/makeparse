@@ -12,8 +12,8 @@ labelLines <- function(x) {
   df$Modifier <- df$StartHash & df$EndColon
   df$Comment <- df$StartHash & !df$EndColon
   df$Group <- cumsum(df$Blank)
-  df$BfBlank <- c(FALSE, df$Blank[seq_len(length(x)-1)])
-  df$AfBlank <- c(df$Blank[seq_len(length(x)-1)+1], FALSE)
+  df$BfBlank <- c(df$Blank[seq_len(length(x)-1)+1], FALSE)
+  df$AfBlank <- c(FALSE, df$Blank[seq_len(length(x)-1)])
 
   SectionLines <- c("# Variables", "# Directories",
                     "# Implicit Rules",
