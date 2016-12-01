@@ -20,6 +20,7 @@ that is easier to query.
 \examples{
 \dontrun{
   makeParse("mkdb.txt")
+  makeParse()
 }
 }
 

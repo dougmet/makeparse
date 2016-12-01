@@ -13,21 +13,19 @@
 #' @examples
 #' \dontrun{
 #'   makeParse("mkdb.txt")
+#'   makeParse()
 #' }
 makeParse <- function(mkdb = NULL) {
 
   # Experimental
   if(is.null(mkdb)) {
-    mkdb <- tempfile()
-    stat <- system2("make", args = c("-p", ">", mkdb))
-    if(is.integer(stat)) {
-      if(stat>0) {
-        stop("Failed to run make -p")
-      }
+    mkdbtxt <- system2("make", args = c("-p"), stdout = TRUE)
+    if(is.integer(mkdbtxt)) {
+      stop("Failed to run make -p")
     }
+  } else {
+    mkdbtxt <- readLines(mkdb) # read test file
   }
-
-  mkdbtxt <- readLines(mkdb) # read test file
 
   dbdf <- labelLines(mkdbtxt) # Label each line in data.frame
 
