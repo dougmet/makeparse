@@ -1,0 +1,438 @@
+[
+  {
+    "file": "results.txt",
+    "target": true,
+    "variables": [
+      {
+        "variable": "^ := abyss.dat isles.dat last.dat sierra.dat zipf_test.py",
+        "type": "automatic"
+      },
+      {
+        "variable": "@ := results.txt",
+        "type": "automatic"
+      },
+      {
+        "variable": "+ := abyss.dat isles.dat last.dat sierra.dat zipf_test.py",
+        "type": "automatic"
+      },
+      {
+        "variable": "? := abyss.dat isles.dat last.dat sierra.dat zipf_test.py",
+        "type": "automatic"
+      },
+      {
+        "variable": "* := ",
+        "type": "automatic"
+      },
+      {
+        "variable": "% := ",
+        "type": "automatic"
+      },
+      {
+        "variable": "< := abyss.dat",
+        "type": "automatic"
+      }
+    ],
+    "commands": "\t$(ZIPF_EXE) $(DAT_FILES) > $@",
+    "last_modified": "2016-11-22 17:31:12"
+  },
+  {
+    "file": ".c",
+    "target": false,
+    "commands": "\t$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".texinfo.info",
+    "target": false,
+    "commands": "\t$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@"
+  },
+  {
+    "file": ".mod.o",
+    "target": false,
+    "commands": "\t$(COMPILE.mod) -o $@ $<"
+  },
+  {
+    "file": ".c.o",
+    "target": false,
+    "commands": "\t$(COMPILE.c) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": "zipf_test.py",
+    "target": false,
+    "last_modified": "2016-11-22 12:12:28"
+  },
+  {
+    "file": ".s",
+    "target": false,
+    "commands": "\t$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": "last.dat",
+    "target": false,
+    "commands": "\t$(COUNT_EXE) $< $*.dat",
+    "last_modified": "2016-11-22 17:31:00"
+  },
+  {
+    "file": "Makefile",
+    "target": false,
+    "last_modified": "2016-11-22 17:30:54"
+  },
+  {
+    "file": "isles.dat",
+    "target": false,
+    "commands": "\t$(COUNT_EXE) $< $*.dat",
+    "last_modified": "2016-11-22 17:31:00"
+  },
+  {
+    "file": ".txinfo.dvi",
+    "target": false,
+    "commands": "\t$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<"
+  },
+  {
+    "file": ".DEFAULT",
+    "target": false
+  },
+  {
+    "file": ".y.c",
+    "target": false,
+    "commands": "\t$(YACC.y) $< "
+  },
+  {
+    "file": ".l",
+    "target": false
+  },
+  {
+    "file": ".web.tex",
+    "target": false,
+    "commands": "\t$(WEAVE) $<"
+  },
+  {
+    "file": "wordcount.py",
+    "target": false,
+    "last_modified": "2016-11-22 13:17:31"
+  },
+  {
+    "file": ".s.o",
+    "target": false,
+    "commands": "\t$(COMPILE.s) -o $@ $<"
+  },
+  {
+    "file": ".sym",
+    "target": false
+  },
+  {
+    "file": ".texi",
+    "target": false
+  },
+  {
+    "file": ".F.f",
+    "target": false,
+    "commands": "\t$(PREPROCESS.F) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".dvi",
+    "target": false
+  },
+  {
+    "file": ".web.p",
+    "target": false,
+    "commands": "\t$(TANGLE) $<"
+  },
+  {
+    "file": ".def",
+    "target": false
+  },
+  {
+    "file": "books/isles.txt",
+    "target": false,
+    "last_modified": "2016-11-22 11:43:26"
+  },
+  {
+    "file": ".F",
+    "target": false,
+    "commands": "\t$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": "books/last.txt",
+    "target": false,
+    "last_modified": "2016-11-22 17:30:05"
+  },
+  {
+    "file": "clean",
+    "target": true,
+    "commands": "\trm -f *.dat"
+  },
+  {
+    "file": ".cc.o",
+    "target": false,
+    "commands": "\t$(COMPILE.cc) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".S.s",
+    "target": false,
+    "commands": "\t$(PREPROCESS.S) $< > $@"
+  },
+  {
+    "file": ".ch",
+    "target": false
+  },
+  {
+    "file": ".def.sym",
+    "target": false,
+    "commands": "\t$(COMPILE.def) -o $@ $<"
+  },
+  {
+    "file": ".F.o",
+    "target": false,
+    "commands": "\t$(COMPILE.F) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".f",
+    "target": false,
+    "commands": "\t$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".elc",
+    "target": false
+  },
+  {
+    "file": ".y.ln",
+    "target": false,
+    "commands": "\t$(YACC.y) $< "
+  },
+  {
+    "file": ".texi.dvi",
+    "target": false,
+    "commands": "\t$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<"
+  },
+  {
+    "file": ".el",
+    "target": false
+  },
+  {
+    "file": ".texinfo.dvi",
+    "target": false,
+    "commands": "\t$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<"
+  },
+  {
+    "file": "books/sierra.txt",
+    "target": false,
+    "last_modified": "2016-11-22 11:18:02"
+  },
+  {
+    "file": "config.mk",
+    "target": false,
+    "last_modified": "2016-11-22 15:15:30"
+  },
+  {
+    "file": ".SUFFIXES",
+    "target": false
+  },
+  {
+    "file": ".txinfo",
+    "target": false
+  },
+  {
+    "file": "help",
+    "target": true,
+    "commands": "\t@sed -n 's/^##//p' $<"
+  },
+  {
+    "file": ".p.o",
+    "target": false,
+    "commands": "\t$(COMPILE.p) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".r.f",
+    "target": false,
+    "commands": "\t$(PREPROCESS.r) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".w.tex",
+    "target": false,
+    "commands": "\t$(CWEAVE) $< - $@"
+  },
+  {
+    "file": ".txinfo.info",
+    "target": false,
+    "commands": "\t$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@"
+  },
+  {
+    "file": "variables",
+    "target": true,
+    "commands": "\t@echo TXT_FILES: $(TXT_FILES)"
+  },
+  {
+    "file": ".o",
+    "target": false,
+    "commands": "\t$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".c.ln",
+    "target": false,
+    "commands": "\t$(LINT.c) -C$* $<"
+  },
+  {
+    "file": ".w",
+    "target": false
+  },
+  {
+    "file": ".ln",
+    "target": false
+  },
+  {
+    "file": ".l.r",
+    "target": false,
+    "commands": "\t$(LEX.l) $< > $@ "
+  },
+  {
+    "file": "abyss.dat",
+    "target": false,
+    "commands": "\t$(COUNT_EXE) $< $*.dat",
+    "last_modified": "2016-11-22 17:30:59"
+  },
+  {
+    "file": ".info",
+    "target": false
+  },
+  {
+    "file": ".r.o",
+    "target": false,
+    "commands": "\t$(COMPILE.r) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".h",
+    "target": false
+  },
+  {
+    "file": ".C.o",
+    "target": false,
+    "commands": "\t$(COMPILE.C) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".p",
+    "target": false,
+    "commands": "\t$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".l.c",
+    "target": false,
+    "commands": "\t@$(RM) $@ "
+  },
+  {
+    "file": ".sh",
+    "target": false,
+    "commands": "\tcat $< >$@ "
+  },
+  {
+    "file": ".web",
+    "target": false
+  },
+  {
+    "file": ".out",
+    "target": false
+  },
+  {
+    "file": ".cc",
+    "target": false,
+    "commands": "\t$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".f.o",
+    "target": false,
+    "commands": "\t$(COMPILE.f) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".texi.info",
+    "target": false,
+    "commands": "\t$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@"
+  },
+  {
+    "file": ".a",
+    "target": false
+  },
+  {
+    "file": ".PHONY",
+    "target": true
+  },
+  {
+    "file": ".tex",
+    "target": false
+  },
+  {
+    "file": ".cpp.o",
+    "target": false,
+    "commands": "\t$(COMPILE.cpp) $(OUTPUT_OPTION) $<"
+  },
+  {
+    "file": ".l.ln",
+    "target": false,
+    "commands": "\t@$(RM) $*.c"
+  },
+  {
+    "file": ".y",
+    "target": false
+  },
+  {
+    "file": "dats",
+    "target": true
+  },
+  {
+    "file": ".S.o",
+    "target": false,
+    "commands": "\t$(COMPILE.S) -o $@ $<"
+  },
+  {
+    "file": ".tex.dvi",
+    "target": false,
+    "commands": "\t$(TEX) $<"
+  },
+  {
+    "file": ".r",
+    "target": false,
+    "commands": "\t$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".mod",
+    "target": false,
+    "commands": "\t$(COMPILE.mod) -o $@ -e $@ $^"
+  },
+  {
+    "file": "sierra.dat",
+    "target": false,
+    "commands": "\t$(COUNT_EXE) $< $*.dat",
+    "last_modified": "2016-11-22 17:31:00"
+  },
+  {
+    "file": ".C",
+    "target": false,
+    "commands": "\t$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": "books/abyss.txt",
+    "target": false,
+    "last_modified": "2016-11-22 11:18:02"
+  },
+  {
+    "file": ".S",
+    "target": false,
+    "commands": "\t$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": ".texinfo",
+    "target": false
+  },
+  {
+    "file": ".w.c",
+    "target": false,
+    "commands": "\t$(CTANGLE) $< - $@"
+  },
+  {
+    "file": ".cpp",
+    "target": false,
+    "commands": "\t$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@"
+  },
+  {
+    "file": "# 84 files in 1007 hash buckets.",
+    "target": true
+  }
+]
