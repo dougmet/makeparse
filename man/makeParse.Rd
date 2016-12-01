@@ -4,11 +4,13 @@
 \alias{makeParse}
 \title{Parse the make database}
 \usage{
-makeParse(mkdb = NULL)
+makeParse(mkdb = NULL, makefile = "Makefile")
 }
 \arguments{
 \item{mkdb}{Path to a text file containing the result of \code{make -p}. If left
 out then it will attempt to call \code{make -p} from the current working directory.}
+
+\item{makefile}{specify where the makefile is (ignored if mkdb is specified)}
 }
 \value{
 A list with each section from the make file

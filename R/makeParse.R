@@ -6,6 +6,7 @@
 #'
 #' @param mkdb Path to a text file containing the result of \code{make -p}. If left
 #' out then it will attempt to call \code{make -p} from the current working directory.
+#' @param makefile specify where the makefile is (ignored if mkdb is specified)
 #'
 #' @return A list with each section from the make file
 #' @export
@@ -15,11 +16,11 @@
 #'   makeParse("mkdb.txt")
 #'   makeParse()
 #' }
-makeParse <- function(mkdb = NULL) {
+makeParse <- function(mkdb = NULL, makefile = "Makefile") {
 
   # Experimental
   if(is.null(mkdb)) {
-    mkdbtxt <- system2("make", args = c("-p"), stdout = TRUE)
+    mkdbtxt <- system2("make", args = c("-f", makefile, "-p"), stdout = TRUE)
     if(is.integer(mkdbtxt)) {
       stop("Failed to run make -p")
     }

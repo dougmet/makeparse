@@ -1,6 +1,6 @@
 Package: makeparse
 Title: Parse the GNU make database
-Version: 0.0.0.9016
+Version: 0.0.0.9018
 Authors@R: person("Doug", "Ashton", email =
         "dashton@mango-solutions.com", role = c("aut", "cre"))
 Description: From a make file, get the make view of the targets and
